@@ -1,0 +1,7 @@
+/* Responsive refinements are currently handled by Tailwind utility classes. */
+
+@media (max-width: 640px) {
+    .glass-card {
+        backdrop-filter: blur(8px);
+    }
+}
