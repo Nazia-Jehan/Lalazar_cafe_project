@@ -1,0 +1,33 @@
+/* Cafe-specific visual styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0c1017;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d97706;
+    border-radius: 4px;
+}
+
+.hero-gradient {
+    background: linear-gradient(180deg, rgba(12, 16, 23, 0.45) 0%, rgba(12, 16, 23, 0.95) 100%);
+}
+
+.glass-card {
+    background: rgba(30, 38, 54, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+.glass-nav {
+    background: rgba(12, 16, 23, 0.85);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+.text-glow {
+    text-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+}
