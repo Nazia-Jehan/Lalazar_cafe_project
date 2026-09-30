@@ -512,3 +512,4 @@ function submitWhatsAppOrder(e) {
   const form = document.getElementById('checkoutForm');
   form?.reset();
 }
+
